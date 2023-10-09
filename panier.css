@@ -1,0 +1,76 @@
+.panier{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+h3{
+    margin-top: 50px;
+}
+.contai{
+    width: 85%;
+}
+thead td{
+   font-weight: 600;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+input{
+    max-width: 100px;
+}
+.item{
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    gap:10px;
+}
+.item img{
+    max-width: 70px;
+    height: auto;
+}
+.remove-button {
+    opacity: .6;
+    color: rgb(100, 99, 99);
+    border: none;
+    border-radius: 50%;
+    padding: 5px 8px;
+    cursor: pointer;
+}
+.check{
+    width: 85%;
+    display: grid;
+    grid-template-columns: 82% 7% 5%;
+    align-items: baseline;
+}
+
+.checkout-button {
+    width: 200px;
+    margin-bottom: 100px;
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color:#A18A68;
+    color: #fff;
+    text-align: center;
+    border: 2px solid #A18A68;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.checkout-button:hover {
+
+    background-color: #FFF;
+    color: #A18A68;
+    border: 2px solid #A18A68;
+}
