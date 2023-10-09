@@ -1,0 +1,28 @@
+User Story pour la maquette de la page d'accueil :
+
+En tant que concepteur de la page d'accueil, je veux créer une maquette de la page d'accueil pour visualiser la disposition et le design de la page avant le développement.
+
+User Story pour le développement HTML et CSS de la page d'accueil :
+
+En tant que développeur de la page d'accueil, je souhaite transformer la maquette de la page d'accueil en code HTML et CSS fonctionnel, en respectant le design et la mise en page définis.
+
+User Story pour la maquette de la page de détail :
+
+En tant que concepteur de la page de détail, je veux créer une maquette de la page de détail pour visualiser la disposition et le design de cette page spécifique avant le développement.
+
+User Story pour le développement HTML et CSS de la page de détail :
+
+En tant que développeur de la page de détail, je souhaite convertir la maquette de la page de détail en code HTML et CSS fonctionnel, en respectant le design et la mise en page définis.
+
+User Story pour la maquette de la page de panier :
+
+En tant que concepteur de la page de panier, je veux créer une maquette de la page de panier pour visualiser la disposition et le design de cette page spécifique avant le développement.
+User Story pour le développement HTML et CSS de la page de panier :
+
+En tant que développeur de la page de panier, je souhaite transformer la maquette de la page de panier en code HTML et CSS fonctionnel, en respectant le design et la mise en page définis.
+User Story pour la maquette de la page de paiement :
+
+En tant que concepteur de la page de paiement, je veux créer une maquette de la page de paiement pour visualiser la disposition et le design de cette page spécifique avant le développement.
+User Story pour le développement HTML et CSS de la page de paiement :
+
+En tant que développeur de la page de paiement, je souhaite convertir la maquette de la page de paiement en code HTML et CSS fonctionnel, en respectant le design et la mise en page définis.
