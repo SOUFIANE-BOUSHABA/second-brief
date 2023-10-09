@@ -51,10 +51,12 @@ input{
 .check{
     width: 85%;
     display: grid;
-    grid-template-columns: 82% 7% 5%;
+    grid-template-columns: 82% ;
     align-items: baseline;
 }
-
+.checkout-button a{
+    color:black;
+}
 .checkout-button {
     width: 200px;
     margin-bottom: 100px;
@@ -69,8 +71,7 @@ input{
     cursor: pointer;
 }
 .checkout-button:hover {
-
+  color: #A18A68; 
     background-color: #FFF;
-    color: #A18A68;
     border: 2px solid #A18A68;
 }

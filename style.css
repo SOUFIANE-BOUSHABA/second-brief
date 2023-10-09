@@ -106,6 +106,7 @@ a{
  .All-produit{
      margin-bottom: 30px;
     display: flex;
+    flex-wrap: wrap;
     width: 85%;
     gap:3%;
     justify-content: space-between;
@@ -115,9 +116,12 @@ a{
     height: 400px;
     cursor: pointer;
 }
+.img{
+    overflow: hidden;
+}
 .All-produit .produit img{
-    width: 100%;
-    height: 300px;
+    width:377px;
+    height: 380px;
     box-sizing: border-box;
 }
 .All-produit .produit img:hover{
@@ -135,6 +139,9 @@ a{
     color: #A18A68;
 }
 
+p.price{
+    background: #FFF;
+}
 
 /* about */
 .about , .about2{
