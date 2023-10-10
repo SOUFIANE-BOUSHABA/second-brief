@@ -58,7 +58,7 @@ a{
     font-size: 25px;
     align-self: center;
     margin-left: 80px;
-    color:#FFF;
+    color:#000;
 }
 .container .content .price{
     margin-top: 20px;
@@ -97,50 +97,68 @@ a{
     opacity: .6;
  }
 
- .Allproduit{
+ .global {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
- }
- .All-produit{
-     margin-bottom: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    width: 85%;
-    gap:3%;
-    justify-content: space-between;
- }
-.All-produit .produit{
-    width: 27%;
-    height: 400px;
-    cursor: pointer;
-}
-.img{
-    overflow: hidden;
-}
-.All-produit .produit img{
-    width:377px;
-    height: 380px;
-    box-sizing: border-box;
-}
-.All-produit .produit img:hover{
-    filter: brightness(90%);
-}
-.All-produit .produit .img{
-    height: 300px;
-}
-.All-produit .produit .description{
-    margin-top: 15px;
-    margin-bottom: 10px;
-}
-.All-produit .produit .price{
-    margin-top: 10px;
-    color: #A18A68;
 }
 
+.cont {
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Optional: Adjust as needed */
+}
+
+.article {
+    width: calc(27.33% - 10px); /* Adjust the width as needed */
+    margin: 5px;
+    padding: 10px;
+    margin-bottom: 50px;
+    border: 1px solid #ddd;
+    text-align: left;
+    position: relative; /* Added to position the icons relative to the article */
+}
+
+.article:hover .icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.13);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+/* Optional: Style your content */
+.img img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.name {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+.icons {
+    display: none;
+}
+
+.icons i {
+    color: white;
+    margin: 0 10px;
+    cursor: pointer;
+}
 p.price{
-    background: #FFF;
+    margin-top: 10px;
+    color:black;
+   
 }
 
 /* about */
