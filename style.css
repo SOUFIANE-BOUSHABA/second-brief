@@ -43,7 +43,6 @@ a{
     display: flex;
     gap: 40px;
 }
-
 /* hero */
 .hero{
     height: 85vh;
@@ -59,8 +58,7 @@ a{
     width: 85%;
     background-image: url(images/Img\ 01.png);
     background-repeat: no-repeat;
-    background-size: cover;
-   
+    background-size: cover; 
 }
 .container .content{
     font-size: 25px;
@@ -68,7 +66,6 @@ a{
     margin-left: 80px;
     color:#000;
 }
-
 .container .content .price{
     margin-top: 20px;
     margin-bottom: 30px;
@@ -80,7 +77,6 @@ a{
    border:1px solid #FFF;
    border-radius: 5px;
 }
- 
 .container .content a:hover{
     color:#A18A68;
     background: #FFF;
@@ -122,20 +118,17 @@ a{
 .entet .titel .right{
     opacity: .6;
  }
-
  .global {
     width: 100%;
     display: flex;
     justify-content: center;
 }
-
 .cont {
     width: 85%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between; 
 }
-
 .article {
     width: calc(27.33% - 10px); 
     margin: 5px;
@@ -145,7 +138,6 @@ a{
     text-align: left;
     position: relative; 
 }
-
 .article:hover .icons {
     display: flex;
     justify-content: center;
@@ -158,24 +150,19 @@ a{
     right: 0;
     bottom: 0;
 }
-
-/* Optional: Style your content */
+/* Optional Style  content */
 .img img {
     max-width: 100%;
     height: auto;
     margin-bottom: 10px;
 }
-
 .name {
     font-weight: bold;
     margin-top: 10px;
 }
-
-
 .icons {
     display: none;
 }
-
 .icons i {
     color: white;
     margin: 0 10px;
@@ -184,9 +171,7 @@ a{
 p.price{
     margin-top: 10px;
     color:black;
-   
 }
-
 /* about */
 .about , .about2{
     width: 100%;
@@ -233,7 +218,6 @@ li{
     margin-bottom: 20px; 
     opacity: .7;
 }
-
 /* footer */
 footer{
     
@@ -266,6 +250,5 @@ footer .footer .right .top{
 }
 footer .footer .right .bottom{
     margin-left: 180px;
-    display: flex; gap:10px;
-    
+    display: flex; gap:10px; 
 }
