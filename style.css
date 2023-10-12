@@ -1,3 +1,5 @@
+
+
 *{
     margin: 0;
     padding: 0;
@@ -25,6 +27,7 @@ a{
 .logo{
     cursor: pointer;
     font-size: 20px;
+    font-family: 'Allerta Stencil';
     font-weight: bold;
     color: #686AA1;
 }
@@ -107,17 +110,17 @@ a{
     width: 85%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between; /* Optional: Adjust as needed */
+    justify-content: space-between; 
 }
 
 .article {
-    width: calc(27.33% - 10px); /* Adjust the width as needed */
+    width: calc(27.33% - 10px); 
     margin: 5px;
     padding: 10px;
     margin-bottom: 50px;
     border: 1px solid #ddd;
     text-align: left;
-    position: relative; /* Added to position the icons relative to the article */
+    position: relative; 
 }
 
 .article:hover .icons {
