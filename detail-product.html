@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="detail.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
@@ -29,7 +30,16 @@
   <div class="global">
     <div class="product-containerr">
         <div class="imageee" data-aos="fade-left">
-            <img src="images/Img 011.png" alt="Product Image">
+            <div class="splide" style="width: 377px;" role="group" aria-label="Splide Basic HTML Example">
+                <div class="splide__track">
+                      <ul class="splide__list" style="height: 380px; width: 377px;">
+                          <li class="splide__slide" style="height: 380px; width: 377px; border-radius: 20px; overflow: hidden;"><img src="images/Img 011.png" alt="Product Image"></li>
+                          <li class="splide__slide" style="height: 380px; width: 377px; border-radius: 20px; overflow: hidden;"><img src="images/lira.png" alt="test"></li>
+                          <li class="splide__slide" style="height: 380px; width: 377px; border-radius: 20px; overflow: hidden;"><img src="images/liraaa.png" alt="test"></li>
+                      </ul>
+                </div>
+              </div>
+            
         </div>
         <div class="product-details" data-aos="fade-right">
             <div class="pname">Hal Earrings</div>
@@ -192,5 +202,9 @@
 <script>
     AOS.init();
 </script>
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+<script>
+    new Splide( '.splide' ).mount();
+  </script>
 </body>
 </html>
